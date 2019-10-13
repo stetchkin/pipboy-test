@@ -64,13 +64,17 @@
 				z-index:-1;
 			}
 			.display{
-				width:75%;
-				height:100%;
+				width:100vw;
+				height:100vh;
+				overflow:hidden;
 			}
 			.nav-pipboy{
+				margin-bottom:0;
+				padding:0;
 				font-family: 'VT323', monospace;
 				-webkit-font-smoothing: none;
 				font-size:1.2em;
+				list-style:none;
 			}
 			.nav-pipboy li{
 				padding:.5em 0;
@@ -103,7 +107,7 @@
 			}
 			.pip-clock{
 				height:100%;
-				margin-top:-2.4em;
+				margin-top:-2.8em;
 				text-align:center;
 			}
 			.pip-clock .align-self-center{
@@ -111,7 +115,7 @@
 			}
 			#pip_time{
 				width:100%;
-				font-size:20vw;
+				font-size:30vw;
 				display:inline-block;
 				font-family: 'Roboto', sans-serif;
 				font-weight:700;
@@ -127,7 +131,7 @@
 		<div class="display">
 			<div class="display-anim"></div>
 			<div class="container">
-				<ul class="nav row nav-pipboy">
+				<ul class="row nav-pipboy">
 					<li class="col">
 						<a>
 							STAT
